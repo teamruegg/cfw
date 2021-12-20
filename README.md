@@ -5,23 +5,23 @@ The Connected Factory Worker application is a set of application used by factory
 
 
 The Connected Factory Worker applications using the new PowerApps component feature for Canvas apps
-[Details detail description](/Components/README.md) 
+[Details detail description](/components/README.md) 
 
 ## Connected Factory Worker Admin application
 
-![Image of Connected Factory Worker Admin application](/Images/cfw_admin_dashboard_1280x720.png)
+![Image of Connected Factory Worker Admin application](/images/cfw_admin_dashboard_1280x720.png)
 
 ## Connected Factory Worker Centerline application
 
-![Image of Connected Factory Worker Centerline application](/Images/cfw_centerline_app_main_1280x720.png)
+![Image of Connected Factory Worker Centerline application](/images/cfw_centerline_app_main_1280x720.png)
 
 ## Connected Factory Worker CIL application
 
-![Image of Connected Factory Worker Centerline application](/Images/cfw_cil_checklist_app_main_1280x720.PNG)
+![Image of Connected Factory Worker Centerline application](/images/cfw_cil_checklist_app_main_1280x720.PNG)
 
 ## Connected Factory Worker Tagging application
 
-![Image of Connected Factory Worker Centerline application](/Images/cfw_tagging_app_register_1280x720.png)
+![Image of Connected Factory Worker Centerline application](/images/cfw_tagging_app_register_1280x720.png)
 
 ## Connected Factory Worker Guide application
 
