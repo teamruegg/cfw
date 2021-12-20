@@ -3,7 +3,7 @@
   <SolutionManifest>
     <UniqueName>CFWBase</UniqueName>
     <LocalizedNames>
-      <LocalizedName description="CFW Base" languagecode="1033" />
+      <LocalizedName description="CFWBase" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
       <Description description="Connected Factory Worker Base contains the data model and the admin application to manage it." languagecode="1033" />
@@ -157,7 +157,6 @@
       <RootComponent type="61" schemaName="ur_/images/worker_icon.svg" behavior="0" />
       <RootComponent type="62" schemaName="ur_cfwadmin" behavior="0" />
       <RootComponent type="80" schemaName="ur_cfwadmin" behavior="0" />
-      <RootComponent type="300" schemaName="ur_centerlinechecklistapp_95dfd" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>

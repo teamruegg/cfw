@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GenerationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AddAuditInformation>false</AddAuditInformation>
+  <AddEntitiesSummary>false</AddEntitiesSummary>
+  <AddFieldSecureInformation>false</AddFieldSecureInformation>
+  <AddFormLocation>false</AddFormLocation>
+  <AddRequiredLevelInformation>false</AddRequiredLevelInformation>
+  <AddValidForAdvancedFind>false</AddValidForAdvancedFind>
+  <AttributesSelection>AllAttributes</AttributesSelection>
+  <DisplayNamesLangugageCode>0</DisplayNamesLangugageCode>
+  <EntitiesToProceed>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_centerlineadjustmentpoint</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_centerlinerecord</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_centerlinesummary</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_cilpoint</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_cilprocess</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_cilrecord</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_cilrecordsummary</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_ciltoolsupply</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_employeesonshift</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_factory</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_line</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_machinecenter</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_opentag</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_packsize</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_packercompetency</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_ppe</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_safewaysassessment</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_safewayslinestatus</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_safewaysofworking</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_shift</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_skillname</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_slc</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_training</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>systemuser</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_workarea</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_workstation</Name>
+    </EntityItem>
+  </EntitiesToProceed>
+  <FilePath>C:\Users\urruegg\source\Workspaces\Dynamics\ConnectedFactoryWorker\docs\CFWBaseMetadata.xlsx</FilePath>
+  <GenerateOnlyOneTable>false</GenerateOnlyOneTable>
+  <IncludeOnlyAttributesOnForms>false</IncludeOnlyAttributesOnForms>
+  <OutputDocumentType>Excel</OutputDocumentType>
+</GenerationSettings>
