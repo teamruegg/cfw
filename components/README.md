@@ -1,4 +1,4 @@
-![Image of Connected Factory Worker](/Images/cfw_apps_255x115.png)
+![Image of Connected Factory Worker](/images/cfw_apps_255x115.png)
 
 # Connected Factory Worker applications using the new PowerApps component feature for Canvas apps
 
