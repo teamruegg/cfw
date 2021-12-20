@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f88c8a69-4fea-46b6-9807-6ec38e998bc7}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_guidetask" select="1" icon="1" preview="1">
+        <row id="ur_guidetaskid" name="result">
+          <cell name="ur_taskno" width="100" />
+          <cell name="ur_guidetask" width="200" />
+          <cell name="ur_taskdescription" width="300" />
+          <cell name="ur_guide" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_guidetask">
+          <attribute name="ur_guidetaskid" />
+          <attribute name="ur_guidetask" />
+          <filter type="and">
+            <condition value="0" operator="eq" attribute="statecode" />
+          </filter>
+          <attribute name="ur_guide" />
+          <attribute name="ur_taskno" />
+          <attribute name="ownerid" />
+          <attribute name="statecode" />
+          <attribute name="statuscode" />
+          <order attribute="ur_guide" descending="true" />
+          <order attribute="ur_taskno" descending="false" />
+          <order attribute="ur_guidetask" descending="true" />
+          <attribute name="ur_taskdescription" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Guide Tasks" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

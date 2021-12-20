@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{136b05ce-e22d-427c-89dc-d31c9afa7382}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_primaryname" select="1" icon="1" preview="1">
+        <row name="result" id="ur_cilprocessid">
+          <cell name="ur_sequence" width="75" />
+          <cell name="ur_primaryname" width="200" />
+          <cell name="ur_machinecenter" width="200" />
+          <cell name="ur_duration" width="100" />
+          <cell name="ur_linemustbestopped" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ur_cilprocess">
+          <attribute name="ur_cilprocessid" />
+          <attribute name="ur_primaryname" />
+          <attribute name="ur_duration" />
+          <attribute name="ur_machinecenter" />
+          <attribute name="ur_linemustbestopped" />
+          <attribute name="ur_sequence" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ownerid" />
+          <attribute name="statecode" />
+          <attribute name="statuscode" />
+          <order attribute="ur_machinecenter" descending="true" />
+          <order attribute="ur_sequence" descending="false" />
+          <order attribute="ur_primaryname" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active CIL Processes" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

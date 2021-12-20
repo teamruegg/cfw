@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e179cacc-3c83-4f4c-a3b7-e2080c5d0486}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_name" select="1" icon="1" preview="1">
+        <row name="result" id="ur_safewayslinestatusid">
+          <cell name="ur_name" width="300" />
+          <cell name="ur_date" width="150" />
+          <cell name="ur_shift" width="150" />
+          <cell name="ur_answersneeded" width="150" />
+          <cell name="ur_assesmentscomplete" width="100" />
+          <cell name="ur_points" width="100" />
+          <cell name="ur_riskrating" width="150" />
+          <cell name="ur_riskratingtext" width="100" />
+          <cell name="ur_notificationsent" width="150" />
+          <cell name="ur_line" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ur_safewayslinestatus">
+          <attribute name="ur_safewayslinestatusid" />
+          <attribute name="ur_name" />
+          <attribute name="ur_date" />
+          <attribute name="ur_shift" />
+          <attribute name="ur_answersneeded" />
+          <attribute name="ur_riskrating" />
+          <attribute name="ur_notificationsent" />
+          <attribute name="ur_line" />
+          <order attribute="ur_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ur_points" />
+          <attribute name="ur_riskratingtext" />
+          <attribute name="ur_assesmentscomplete" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Safe Ways Line Statuses" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="ur_shifttime" localizedName="Shift Time" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Shift Time" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="575770000">
+      <labels>
+        <label description="Day" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="575770001">
+      <labels>
+        <label description="Night" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

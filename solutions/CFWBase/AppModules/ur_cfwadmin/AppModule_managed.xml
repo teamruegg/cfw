@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>ur_cfwadmin</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="ur_cfwadmin" />
+    <AppModuleComponent type="1" schemaName="ur_centerlineadjustmentpoint" />
+    <AppModuleComponent type="60" id="{8b23ecaa-174e-45bb-b825-36e6d2c5962e}" />
+    <AppModuleComponent type="60" id="{c78a7b4c-eadd-4ee8-93d9-8e488fce63aa}" />
+    <AppModuleComponent type="1" schemaName="ur_centerlinerecord" />
+    <AppModuleComponent type="60" id="{21b7c99d-80cf-4d1d-a510-3ee42f4f630a}" />
+    <AppModuleComponent type="60" id="{20da8e65-a1f5-4d24-a165-89da043b1695}" />
+    <AppModuleComponent type="1" schemaName="ur_centerlinesummary" />
+    <AppModuleComponent type="60" id="{0059e6b5-c7a2-49bc-99a3-55d77c6d1ad5}" />
+    <AppModuleComponent type="60" id="{ace2ff4d-33b4-4631-9b4d-99e517f42851}" />
+    <AppModuleComponent type="1" schemaName="ur_cilpoint" />
+    <AppModuleComponent type="60" id="{32128dcf-9813-495b-9c54-b130db9f71ba}" />
+    <AppModuleComponent type="60" id="{39baecc8-3998-4658-9692-41b35acaff15}" />
+    <AppModuleComponent type="1" schemaName="ur_cilprocess" />
+    <AppModuleComponent type="60" id="{34995fd0-fe49-4dcf-9572-49c3e93d1f73}" />
+    <AppModuleComponent type="60" id="{27304b8c-ace4-4e99-b5fd-116e2cac4f9c}" />
+    <AppModuleComponent type="1" schemaName="ur_cilrecord" />
+    <AppModuleComponent type="60" id="{54300f7b-8fb3-4f6d-afe2-e1d1e489349d}" />
+    <AppModuleComponent type="60" id="{27b18389-33c4-4f34-8907-fcf0a6f2ebaf}" />
+    <AppModuleComponent type="1" schemaName="ur_cilrecordsummary" />
+    <AppModuleComponent type="60" id="{73ba9e1e-39e8-4865-b538-ea54a1dee9a7}" />
+    <AppModuleComponent type="60" id="{82dabda5-a4fe-4500-acc0-09a99c069ee4}" />
+    <AppModuleComponent type="1" schemaName="ur_ciltoolsupply" />
+    <AppModuleComponent type="60" id="{fed887f7-cf32-43be-867b-3d3141051dad}" />
+    <AppModuleComponent type="60" id="{d8eba86a-20c7-40b1-8565-9d65bd0a2341}" />
+    <AppModuleComponent type="1" schemaName="ur_employeesonshift" />
+    <AppModuleComponent type="60" id="{241a7131-9eaa-450a-8011-169ef1c7b24d}" />
+    <AppModuleComponent type="60" id="{e5e8be4f-9e0e-4f0b-b4bf-a831718d49ab}" />
+    <AppModuleComponent type="1" schemaName="ur_factory" />
+    <AppModuleComponent type="60" id="{dd2993ae-108f-4ce5-9b7e-68982f4515e0}" />
+    <AppModuleComponent type="60" id="{14789e14-7459-49fa-8ae7-e4ce8ebbb37b}" />
+    <AppModuleComponent type="1" schemaName="ur_guide" />
+    <AppModuleComponent type="60" id="{7c073e19-e0d2-4d9c-a045-cf9fd3692b10}" />
+    <AppModuleComponent type="60" id="{4d66c237-357f-4e4b-8a45-6c797458d68a}" />
+    <AppModuleComponent type="1" schemaName="ur_line" />
+    <AppModuleComponent type="60" id="{631b70b9-51e9-4128-a716-5f9ec1928368}" />
+    <AppModuleComponent type="60" id="{5b3bf782-a876-499d-a9a0-28f677ac2ebb}" />
+    <AppModuleComponent type="1" schemaName="ur_machinecenter" />
+    <AppModuleComponent type="60" id="{a2c60e1e-3f2c-4f8d-a6f8-0be035433484}" />
+    <AppModuleComponent type="60" id="{ea8ccbdc-b9b4-45b6-819c-18f515cd47dc}" />
+    <AppModuleComponent type="1" schemaName="ur_opentag" />
+    <AppModuleComponent type="60" id="{df9bede9-ac35-4f2c-96fb-c9dd904a2d27}" />
+    <AppModuleComponent type="60" id="{d28b0a3e-c404-45ae-b088-58f20c073498}" />
+    <AppModuleComponent type="1" schemaName="ur_packsize" />
+    <AppModuleComponent type="60" id="{9a2e0b97-503d-4eb3-aaef-8e32da2146c7}" />
+    <AppModuleComponent type="60" id="{cc309b27-8af3-41a5-b449-a2244c3377b4}" />
+    <AppModuleComponent type="1" schemaName="ur_packercompetency" />
+    <AppModuleComponent type="60" id="{b970deb7-4ecb-41f0-a0ea-69f0dfbaf34f}" />
+    <AppModuleComponent type="60" id="{55385d8f-5fe3-4fa3-9786-8b400217372c}" />
+    <AppModuleComponent type="1" schemaName="ur_ppe" />
+    <AppModuleComponent type="60" id="{58effcc4-c845-41a7-b04b-0341d089f86d}" />
+    <AppModuleComponent type="60" id="{e9df85e6-5596-4ef9-b2b6-f535052932cb}" />
+    <AppModuleComponent type="1" schemaName="ur_safewaysassessment" />
+    <AppModuleComponent type="60" id="{04083dab-32a7-40c9-8b39-4434865f310a}" />
+    <AppModuleComponent type="60" id="{fda84467-ad89-4c70-b436-14765c31638f}" />
+    <AppModuleComponent type="1" schemaName="ur_safewayslinestatus" />
+    <AppModuleComponent type="60" id="{a0f0f321-a843-4aff-8ab2-9c036a05f13e}" />
+    <AppModuleComponent type="60" id="{7bd56650-a4f7-4391-95e7-4c88fc9aec7c}" />
+    <AppModuleComponent type="1" schemaName="ur_safewaysofworking" />
+    <AppModuleComponent type="60" id="{292e87fc-cfc3-4f17-b1a7-84218bb40ed6}" />
+    <AppModuleComponent type="60" id="{8eaad73d-0fc7-45f8-a2ac-051c6b975f37}" />
+    <AppModuleComponent type="1" schemaName="ur_shift" />
+    <AppModuleComponent type="60" id="{1727265e-0552-41c4-aaa6-48149fcb0996}" />
+    <AppModuleComponent type="60" id="{d355e32c-e43e-4eff-ba18-183b18db8f9a}" />
+    <AppModuleComponent type="1" schemaName="ur_workarea" />
+    <AppModuleComponent type="60" id="{68b3763f-c479-438e-8189-395f46d6e994}" />
+    <AppModuleComponent type="60" id="{bdc21285-48dd-4290-81e5-d94be641c601}" />
+    <AppModuleComponent type="1" schemaName="ur_workstation" />
+    <AppModuleComponent type="60" id="{f4bf4666-6dc6-4096-a18c-195db8c9d824}" />
+    <AppModuleComponent type="60" id="{9a553f98-2656-4f59-b239-a1377f0e99e9}" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{18f1424f-c8c0-e911-a846-000d3a39e620}" />
+    <Role id="{6ed7f868-c8c0-e911-a846-000d3a39e620}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="CFW Admin" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Connected Facrory Worker Admin App" languagecode="1033" />
+  </Descriptions>
+</AppModule>

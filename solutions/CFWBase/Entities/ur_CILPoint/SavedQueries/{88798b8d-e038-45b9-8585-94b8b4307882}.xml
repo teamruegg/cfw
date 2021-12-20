@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{88798b8d-e038-45b9-8585-94b8b4307882}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="ur_primaryname" select="1" icon="1" preview="1">
+        <row name="ur_cilpoint" id="ur_cilpointid">
+          <cell name="ur_category" width="150" />
+          <cell name="ur_primaryname" width="300" />
+          <cell name="ur_description" width="150" />
+          <cell name="ur_sequence" width="150" />
+          <cell name="ur_cil" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ur_cilpoint">
+          <attribute name="ur_cilpointid" />
+          <attribute name="ur_primaryname" />
+          <attribute name="ur_category" />
+          <attribute name="ur_description" />
+          <attribute name="ur_sequence" />
+          <attribute name="ur_cil" />
+          <order attribute="ur_cil" descending="false" />
+          <order attribute="ur_sequence" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="CIL Point Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

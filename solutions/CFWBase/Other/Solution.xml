@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.11139" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>CFWBase</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="CFW Base" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Connected Factory Worker Base contains the data model and the admin application to manage it." languagecode="1033" />
+    </Descriptions>
+    <Version>0.8.0.1</Version>
+    <Managed>1</Managed>
+    <Publisher>
+      <UniqueName>ursruegg</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Urs Rüegg" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress>urs.ruegg@microsoft.vcom</EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ur</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>31581</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1>+41 79 600 17 84</Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="ur_centerlineadjustmentpoint" behavior="0" />
+      <RootComponent type="1" schemaName="ur_centerlinerecord" behavior="0" />
+      <RootComponent type="1" schemaName="ur_centerlinesummary" behavior="0" />
+      <RootComponent type="1" schemaName="ur_cilpoint" behavior="0" />
+      <RootComponent type="1" schemaName="ur_cilprocess" behavior="0" />
+      <RootComponent type="1" schemaName="ur_cilrecord" behavior="0" />
+      <RootComponent type="1" schemaName="ur_cilrecordsummary" behavior="0" />
+      <RootComponent type="1" schemaName="ur_ciltoolsupply" behavior="0" />
+      <RootComponent type="1" schemaName="ur_employeesonshift" behavior="0" />
+      <RootComponent type="1" schemaName="ur_factory" behavior="0" />
+      <RootComponent type="1" schemaName="ur_guide" behavior="0" />
+      <RootComponent type="1" schemaName="ur_guidestep" behavior="0" />
+      <RootComponent type="1" schemaName="ur_guidetask" behavior="0" />
+      <RootComponent type="1" schemaName="ur_line" behavior="0" />
+      <RootComponent type="1" schemaName="ur_machinecenter" behavior="0" />
+      <RootComponent type="1" schemaName="ur_opentag" behavior="0" />
+      <RootComponent type="1" schemaName="ur_packercompetency" behavior="0" />
+      <RootComponent type="1" schemaName="ur_packsize" behavior="0" />
+      <RootComponent type="1" schemaName="ur_ppe" behavior="0" />
+      <RootComponent type="1" schemaName="ur_safewaysassessment" behavior="0" />
+      <RootComponent type="1" schemaName="ur_safewayslinestatus" behavior="0" />
+      <RootComponent type="1" schemaName="ur_safewaysofworking" behavior="0" />
+      <RootComponent type="1" schemaName="ur_shift" behavior="0" />
+      <RootComponent type="1" schemaName="ur_skillname" behavior="0" />
+      <RootComponent type="1" schemaName="ur_training" behavior="0" />
+      <RootComponent type="1" schemaName="ur_workarea" behavior="0" />
+      <RootComponent type="1" schemaName="ur_workstation" behavior="0" />
+      <RootComponent type="9" schemaName="ur_defect" behavior="0" />
+      <RootComponent type="9" schemaName="ur_priority" behavior="0" />
+      <RootComponent type="9" schemaName="ur_shifttime" behavior="0" />
+      <RootComponent type="9" schemaName="ur_step" behavior="0" />
+      <RootComponent type="9" schemaName="ur_trainingtype" behavior="0" />
+      <RootComponent type="20" id="{18f1424f-c8c0-e911-a846-000d3a39e620}" behavior="0" />
+      <RootComponent type="20" id="{6ed7f868-c8c0-e911-a846-000d3a39e620}" behavior="0" />
+      <RootComponent type="60" id="{292e87fc-cfc3-4f17-b1a7-84218bb40ed6}" behavior="0" />
+      <RootComponent type="60" id="{3b31b3f9-b1b6-e911-a844-000d3a39e620}" behavior="0" />
+      <RootComponent type="60" id="{473ba8bd-c2d0-4f93-b977-9d480ce03f5e}" behavior="0" />
+      <RootComponent type="60" id="{53d1a4c7-dcf6-4746-95ad-6d4e793f5622}" behavior="0" />
+      <RootComponent type="60" id="{58effcc4-c845-41a7-b04b-0341d089f86d}" behavior="0" />
+      <RootComponent type="60" id="{631b70b9-51e9-4128-a716-5f9ec1928368}" behavior="0" />
+      <RootComponent type="60" id="{8b23ecaa-174e-45bb-b825-36e6d2c5962e}" behavior="0" />
+      <RootComponent type="60" id="{a2c60e1e-3f2c-4f8d-a6f8-0be035433484}" behavior="0" />
+      <RootComponent type="60" id="{b970deb7-4ecb-41f0-a0ea-69f0dfbaf34f}" behavior="0" />
+      <RootComponent type="60" id="{dd2993ae-108f-4ce5-9b7e-68982f4515e0}" behavior="0" />
+      <RootComponent type="60" id="{df9bede9-ac35-4f2c-96fb-c9dd904a2d27}" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/CFWBaseArtefacts.html" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/3D_shape_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/audio_mixer_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/bullets_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/calendar_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/clean_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/contoso_logo.png" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/contoso_logo.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/data_information_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/document_add_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/document_check_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/document_exchange_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/engineer_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/engine_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/factory_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/flow_chart_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/gauge_03_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/gauge_04_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/gear_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/graduate_degree_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/location_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/map_location_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/multiple_threads_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/road_blocker_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/row_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/server_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/student_laptop_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/tag_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/toolbox_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/worker_icon.svg" behavior="0" />
+      <RootComponent type="62" schemaName="ur_cfwadmin" behavior="0" />
+      <RootComponent type="80" schemaName="ur_cfwadmin" behavior="0" />
+      <RootComponent type="300" schemaName="ur_centerlinechecklistapp_95dfd" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="1" type="80" schemaName="ur_cfwadmin" displayName="CFW Admin" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

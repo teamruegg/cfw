@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>ur_cfwadmin</SiteMapUniqueName>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="ur_main_top" ResourceId="SitemapDesigner.NewArea" DescriptionResourceId="SitemapDesigner.NewArea" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Operation" />
+      </Titles>
+      <Group Id="ur_sub_factory" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Factory" />
+        </Titles>
+        <SubArea Id="ur_subarea_open_tag" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ur_opentag" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Open Tags" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="ur_sub_guide" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Guide" />
+        </Titles>
+        <SubArea Id="ur_subarea_guide_guide" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ur_guide" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="ur_sub_centerlining" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Centerlining" />
+        </Titles>
+        <SubArea Id="ur_subarea_cl_adjustment" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ur_centerlineadjustmentpoint" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Adjustment Points" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="ur_subarea_cl_summaries" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ur_centerlinesummary" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Summaries" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="ur_subarea_cl_records" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ur_centerlinerecord" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Records" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="ur_sub_cil" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="CIL" />
+        </Titles>
+        <SubArea Id="ur_subarea_cil_record_sum" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ur_cilrecordsummary" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Summaries" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="ur_subarea_cil_records" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ur_cilrecord" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Records" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="ur_sub_safeways" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Safe Ways" />
+        </Titles>
+        <SubArea Id="ur_subarea_sw_assessments" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ur_safewaysassessment" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Assessment" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="ur_subarea_sw_emp_onshift" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ur_employeesonshift" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Employees on Shift" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="ur_sw_line_statuses" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ur_safewayslinestatus" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Line Status" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="ur_sw_of_working" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ur_safewaysofworking" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Safe Ways of Working" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="ur_admin_top" ResourceId="SitemapDesigner.NewArea" ShowGroups="false">
+      <Titles>
+        <Title LCID="1033" Title="Admin" />
+      </Titles>
+      <Group Id="ur_sub_admin_factory" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Factory" />
+        </Titles>
+        <SubArea Id="ur_sub_admin_dashboard" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="3b31b3f9-b1b6-e911-a844-000d3a39e620" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Dashboard" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="ur_subarea_factories" IntroducedVersion="7.0.0.0" Entity="ur_factory" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="ur_subarea_line" Entity="ur_line" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="ur_subarea_machine_centers" Entity="ur_machinecenter" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="ur_subarea_workstation" Entity="ur_workstation" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Workstation" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="ur_subarea_packsize" Entity="ur_packsize" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Pack Size" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="ur_sub_admin_centerlining" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Centerlining" />
+        </Titles>
+      </Group>
+      <Group Id="ur_sub_admin_cil" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="CIL" />
+        </Titles>
+        <SubArea Id="ur_subarea_cil_points" Entity="ur_cilpoint" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Points" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="ur_subarea_cil_processes" Entity="ur_cilprocess" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Process" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="ur_subarea_ppe" Entity="ur_ppe" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="ur_subarea_cil_tools" Entity="ur_ciltoolsupply" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Tools &amp; Supply" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="ur_sub_admin_safe_ways" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Safe Ways" />
+        </Titles>
+        <SubArea Id="ur_subarea_work_area" Entity="ur_workarea" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Work Areas" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="CFW Admin" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

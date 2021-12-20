@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>ur_centerlinechecklistapp_95dfd</Name>
+  <AppVersion>2020-01-09T16:56:46Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.19121.12.0</CreatedByClientVersion>
+  <MinClientVersion>3.19121.12.0</MinClientVersion>
+  <Tags>{"minimumRequiredApiVersion":"2.2.0","primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"2e7b2638-981a-475b-93e2-e6d0f3da2ae7","deviceCapabilities":"","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.19121.12","hasComponent":"true","hasUnlockedComponent":"true"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(81, 92, 107, 1)</BackgroundColor>
+  <DisplayName>CFW Centerline Checklist App</DisplayName>
+  <Description>Connected Factory Worker Centerline Checklist Application</Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences xsi:nil="true"></AuthorizationReferences>
+  <ConnectionReferences>{"f549a72f-ee72-4fc6-9332-471c6768bc54":{"id":"/providers/microsoft.powerapps/apis/shared_commondataservice","displayName":"Common Data Service","iconUri":"https://connectoricons-prod.azureedge.net/commondataservice/icon_1.0.1285.1766.png","dataSources":["Factories","Lines","Machine Centers","Pack Sizes","Center Line Adjustment Points","Centerline Records","Centerline Summaries"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"default.cds":{"dataSources":{"Factories":{"tableName":"ur_factories"},"Lines":{"tableName":"ur_lines"},"Machine Centers":{"tableName":"ur_machinecenters"},"Pack Sizes":{"tableName":"ur_packsizes"},"Center Line Adjustment Points":{"tableName":"ur_centerlineadjustmentpoints"},"Centerline Records":{"tableName":"ur_centerlinerecords"},"Centerline Summaries":{"tableName":"ur_centerlinesummaries"}}}},"apiTier":"Premium"}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"entitysetname":"ur_factories","componenttype":1},{"entitysetname":"ur_lines","componenttype":1},{"entitysetname":"ur_machinecenters","componenttype":1},{"entitysetname":"ur_packsizes","componenttype":1},{"entitysetname":"ur_centerlineadjustmentpoints","componenttype":1},{"entitysetname":"ur_centerlinerecords","componenttype":1},{"entitysetname":"ur_centerlinesummaries","componenttype":1}]}</CdsDependencies>
+  <BackgroundImageUri>/CanvasApps/ur_centerlinechecklistapp_95dfd_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/ur_centerlinechecklistapp_95dfd_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

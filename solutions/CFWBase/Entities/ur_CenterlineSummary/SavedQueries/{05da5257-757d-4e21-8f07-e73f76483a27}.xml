@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{05da5257-757d-4e21-8f07-e73f76483a27}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_primaryname" select="1" icon="1" preview="1">
+        <row name="result" id="ur_centerlinesummaryid">
+          <cell name="ur_primaryname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_centerlinesummary">
+          <attribute name="ur_centerlinesummaryid" />
+          <attribute name="ur_primaryname" />
+          <attribute name="createdon" />
+          <order attribute="ur_primaryname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="ur_primaryname" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Centerline Summaries" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

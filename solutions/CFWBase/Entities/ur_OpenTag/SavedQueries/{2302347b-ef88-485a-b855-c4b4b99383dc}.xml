@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2302347b-ef88-485a-b855-c4b4b99383dc}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_name" select="1" icon="1" preview="1">
+        <row id="ur_opentagid" name="result">
+          <cell name="ur_autonum" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ur_name" width="300" />
+          <cell name="ur_line" width="150" />
+          <cell name="ur_workstation" width="200" />
+          <cell name="ur_action" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ur_tagtype" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ur_priority" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ur_defect" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ur_duration" width="100" />
+          <cell name="ur_equipmentstop" width="100" />
+          <cell name="ur_interventiontime" width="100" />
+          <cell name="ur_improvement" width="100" />
+          <cell name="ur_step" width="100" />
+          <cell name="ur_place" width="100" />
+          <cell name="ur_workorder" width="100" />
+          <cell name="ur_plannedcompletiondate" width="100" />
+          <cell name="ur_closedon" width="150" />
+          <cell name="ur_repairedby" width="100" />
+          <cell name="ur_x" width="100" />
+          <cell name="ur_y" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ur_opentag">
+          <attribute name="ur_name" />
+          <attribute name="ur_action" />
+          <attribute name="ur_closedon" />
+          <attribute name="ur_autonum" />
+          <attribute name="ur_line" />
+          <order attribute="ur_name" descending="false" />
+          <filter type="and">
+            <condition value="0" attribute="statecode" operator="eq" />
+          </filter>
+          <attribute name="ur_workstation" />
+          <attribute name="ur_workorder" />
+          <attribute name="ur_tagtype" />
+          <attribute name="ur_step" />
+          <attribute name="statuscode" />
+          <attribute name="statecode" />
+          <attribute name="ur_repairedby" />
+          <attribute name="ur_priority" />
+          <attribute name="ur_plannedcompletiondate" />
+          <attribute name="ur_place" />
+          <attribute name="ownerid" />
+          <attribute name="ur_interventiontime" />
+          <attribute name="ur_improvement" />
+          <attribute name="ur_equipmentstop" />
+          <attribute name="ur_duration" />
+          <attribute name="ur_defect" />
+          <attribute name="ur_y" />
+          <attribute name="ur_x" />
+          <attribute name="ur_opentagid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Open Tags" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

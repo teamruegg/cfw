@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{0f38ffe3-c83f-4341-9a06-efd8e0dfdcb9}</savedqueryid>
+    <layoutxml>
+      <grid name="" preview="1" icon="1" select="1" jump="ur_primaryname">
+        <row id="ur_safewaysofworkingid" name="ur_safewaysofworking">
+          <cell name="ur_number" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ur_primaryname" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ur_value" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ur_line" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ur_workstation" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ownerid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch mapping="logical" version="1.0">
+        <entity name="ur_safewaysofworking">
+          <attribute name="ur_primaryname" />
+          <order descending="false" attribute="ur_primaryname" />
+          <filter type="and">
+            <condition value="0" attribute="statecode" operator="eq" />
+          </filter>
+          <attribute name="ur_workstation" />
+          <attribute name="ur_value" />
+          <attribute name="statuscode" />
+          <attribute name="statecode" />
+          <attribute name="ur_number" />
+          <attribute name="ownerid" />
+          <attribute name="ur_line" />
+          <attribute name="ur_safewaysofworkingid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Safe Ways of Working Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

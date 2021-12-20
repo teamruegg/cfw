@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{8b8e88fb-618c-4340-adb7-8ba753dcb8b5}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_primaryname" select="1" icon="1" preview="0">
+        <row name="ur_line" id="ur_lineid">
+          <cell name="ur_primaryname" width="235" />
+          <cell name="ur_factory" width="193" />
+          <cell name="ur_supervisorlookup" width="100" />
+          <cell name="ur_workarea" width="151" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_line">
+          <attribute name="ur_lineid" />
+          <attribute name="ur_primaryname" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ur_factory" />
+          <attribute name="ur_supervisorlookup" />
+          <attribute name="ur_workarea" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Line Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{638070a7-4a35-4ed5-9ae5-101d15b36e79}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" preview="1" icon="1" select="1" jump="ur_primaryname">
+        <row id="ur_centerlinesummaryid" name="result">
+          <cell name="ur_primaryname" width="300" />
+          <cell name="ur_adherencecount" width="75" />
+          <cell name="ur_notadherentcount" width="75" />
+          <cell name="ur_comments" width="300" />
+          <cell name="ur_duration" width="100" />
+          <cell name="ur_finished" width="75" />
+          <cell name="ownerid" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch mapping="logical" output-format="xml-platform" version="1.0">
+        <entity name="ur_centerlinesummary">
+          <attribute name="ur_centerlinesummaryid" />
+          <attribute name="ur_primaryname" />
+          <attribute name="ur_adherencecount" />
+          <attribute name="ur_notadherentcount" />
+          <attribute name="ur_duration" />
+          <attribute name="ur_finished" />
+          <attribute name="ownerid" />
+          <attribute name="statecode" />
+          <attribute name="statuscode" />
+          <attribute name="ur_comments" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Centerline Summaries" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

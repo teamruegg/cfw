@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{0525eef9-075d-4a4e-9545-83bc9e6eb3cf}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_primaryname" select="1" icon="1" preview="1">
+        <row name="result" id="ur_centerlinerecordid">
+          <cell name="createdon" width="150" />
+          <cell name="ur_primaryname" width="300" />
+          <cell name="ur_centerlinesummary" width="250" />
+          <cell name="ur_centerlineadjustmentpoint" width="200" />
+          <cell name="ur_adherent" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ur_centerlinerecord">
+          <attribute name="ur_centerlinerecordid" />
+          <attribute name="ur_primaryname" />
+          <attribute name="ur_adherent" />
+          <attribute name="ur_centerlineadjustmentpoint" />
+          <attribute name="ur_centerlinesummary" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ownerid" />
+          <attribute name="statecode" />
+          <attribute name="statuscode" />
+          <attribute name="createdon" />
+          <order attribute="createdon" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Centerline Records" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

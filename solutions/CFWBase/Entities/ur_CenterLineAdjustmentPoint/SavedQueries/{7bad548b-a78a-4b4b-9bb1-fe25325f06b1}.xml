@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{7bad548b-a78a-4b4b-9bb1-fe25325f06b1}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="ur_primaryname" select="1" icon="1" preview="1">
+        <row name="ur_centerlineadjustmentpoint" id="ur_centerlineadjustmentpointid">
+          <cell name="ur_sequence" width="100" />
+          <cell name="ur_primaryname" width="300" />
+          <cell name="ur_value" width="150" />
+          <cell name="ur_packsize" width="150" />
+          <cell name="ur_centerlineadjustmentpointur_packsizeur_packsizeur_packsizeid.ur_machinecenter" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ur_centerlineadjustmentpoint">
+          <attribute name="ur_centerlineadjustmentpointid" />
+          <attribute name="ur_primaryname" />
+          <attribute name="ur_sequence" />
+          <attribute name="ur_value" />
+          <attribute name="ur_packsize" />
+          <order attribute="ur_sequence" descending="false" />
+          <order attribute="ur_primaryname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <link-entity name="ur_packsize" visible="false" to="ur_packsize" from="ur_packsizeid" link-type="outer" alias="ur_centerlineadjustmentpointur_packsizeur_packsizeur_packsizeid">
+            <attribute name="ur_machinecenter" />
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Center Line Adjustment Point Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

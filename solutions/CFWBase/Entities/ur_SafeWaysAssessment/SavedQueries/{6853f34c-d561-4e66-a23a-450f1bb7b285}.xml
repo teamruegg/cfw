@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{6853f34c-d561-4e66-a23a-450f1bb7b285}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_name" select="1" icon="1" preview="1">
+        <row name="result" id="ur_safewaysassessmentid">
+          <cell name="ur_name" width="300" />
+          <cell name="ur_workstation" width="150" />
+          <cell name="ur_date" width="150" />
+          <cell name="ur_shift" width="150" />
+          <cell name="ur_points" width="150" />
+          <cell name="ur_question" width="150" />
+          <cell name="ownerid" width="150" />
+          <cell name="ur_comments" width="150" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ur_safewaysassessment">
+          <attribute name="ur_name" />
+          <attribute name="ur_date" />
+          <attribute name="ur_question" />
+          <attribute name="ur_points" />
+          <attribute name="ownerid" />
+          <attribute name="ur_comments" />
+          <attribute name="ur_safewaysassessmentid" />
+          <attribute name="ur_shift" />
+          <attribute name="ur_workstation" />
+          <order attribute="ur_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="statecode" />
+          <attribute name="statuscode" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Safe Ways Assessments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

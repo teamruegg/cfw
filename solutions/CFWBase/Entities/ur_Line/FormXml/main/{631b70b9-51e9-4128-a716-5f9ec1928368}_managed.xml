@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{631b70b9-51e9-4128-a716-5f9ec1928368}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab id="{29e83c0b-71f5-456d-a4c6-66dadd150b66}" IsUserDefined="1" verticallayout="true" expanded="true" name="line_tab_general">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{4c2290b1-1c9d-48d5-ad8f-f55ea69dd171}" IsUserDefined="0" showbar="false" showlabel="false">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5c938502-d8fb-41e5-b6f5-89188a707d68}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ur_primaryname" datafieldname="ur_primaryname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{654176b2-0529-4500-87bd-e0655154c804}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" datafieldname="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{15530f6c-1881-4286-bcae-fd82427d85e6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="ur_supervisorlookup" datafieldname="ur_supervisorlookup" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3b5e4153-4b84-4233-bb8f-2a63f29be9c7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ur_factory" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ur_factory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{56600ee4-bd4b-4211-bfdc-916dfc77a3a9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="ur_workarea" datafieldname="ur_workarea" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6edb148e-e685-66c2-b25c-d493dd8eb293}" showlabel="true" colspan="1" auto="false" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="line_general_subgrid_machine_center" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{C1C6127D-B0D3-484B-8F33-6AB388660346}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>ur_MachineCenter_Line_ur_Line</RelationshipName>
+                            <TargetEntityType>ur_machinecenter</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{C1C6127D-B0D3-484B-8F33-6AB388660346}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eec01ad7-eb9a-64a3-d171-eb03eded0633}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="statecode" datafieldname="statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{70292e35-4c29-d379-ecdd-1ca729c50e8e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="statuscode" datafieldname="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a075c8c8-035d-b2c2-3820-798624ade926}" showlabel="true" colspan="1" auto="false" rowspan="15">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="bb832979-8f82-46da-84d6-68b5b934b12e" name="line_tab_workstation" IsUserDefined="0" showlabel="true" locklevel="0" expanded="true">
+          <labels>
+            <label description="Workstations" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="a61ab6b4-016e-40e7-8fed-eb257d7569d2" name="line_tab_workstation_section" IsUserDefined="0" columns="1" showbar="false" showlabel="false" locklevel="0" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" labelwidth="115">
+                  <labels>
+                    <label description="Workstation" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5ca9be08-5d9d-0aea-5db4-e677bb0d3a35}" showlabel="true" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Workstations" languagecode="1033" />
+                        </labels>
+                        <control id="line_subgrid_workstation" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{c9c24398-0a89-2dc8-4ba7-de7372e6bc89}">
+                          <parameters>
+                            <ViewId>{07BC43B8-A310-42A7-B8F5-A232DA1720AF}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>ur_Workstation_Line_ur_Line</RelationshipName>
+                            <TargetEntityType>ur_workstation</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{07BC43B8-A310-42A7-B8F5-A232DA1720AF}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{d77be780-0d1d-6b99-7b0e-3ee2549d98a5}" name="line_tab_machine_center" IsUserDefined="0" showlabel="true" locklevel="0" expanded="true">
+          <labels>
+            <label description="Machine Center" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{5bbc439e-0c9b-5373-570b-98e7966bdd4a}" name="line_tab_machine_center_section_1" IsUserDefined="0" columns="1" showbar="false" showlabel="false" locklevel="0" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" labelwidth="115">
+                  <labels>
+                    <label description="Machine Center" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{104a189e-ce96-84c2-a186-e9c239c9560d}" showlabel="true" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="line_subgrid_machine_center" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{ae613d10-a5ba-a60d-6d72-c399b2e3699d}">
+                          <parameters>
+                            <ViewId>{C1C6127D-B0D3-484B-8F33-6AB388660346}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>ur_MachineCenter_Line_ur_Line</RelationshipName>
+                            <TargetEntityType>ur_machinecenter</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{C1C6127D-B0D3-484B-8F33-6AB388660346}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="line_tab_open_tags" id="d0d6eb4e-76ca-49d0-8170-997eeb5068e4" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Open Tags" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="line_tab_open_tags_section" id="d28b48d9-def9-4dea-9932-3823175d72eb" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Open Tags" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{ae4c5473-e4b1-443e-b987-bccedc229c1f}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Open Tags" languagecode="1033" />
+                        </labels>
+                        <control id="line_subgrid_open_tags" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>ur_opentag</TargetEntityType>
+                            <ViewId>{2302347B-EF88-485A-B855-C4B4B99383DC}</ViewId>
+                            <ViewIds>{2302347B-EF88-485A-B855-C4B4B99383DC}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>ur_OpenTag_Line_ur_Line</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="line_tab_safe_way" id="7da91aa4-428d-48df-98e0-3da62e9e0f8d" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Safe Way" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_5_section_1" id="644e0885-fce1-45bb-8a43-2e62a0eebafc" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Safe Ways Line Status" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{478215e7-eae4-4f04-9931-21f6a1880d86}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Safe Way Line Status" languagecode="1033" />
+                        </labels>
+                        <control id="line_subgrid_safe_way_line_status" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>ur_safewayslinestatus</TargetEntityType>
+                            <ViewId>{E179CACC-3C83-4F4C-A3B7-E2080C5D0486}</ViewId>
+                            <ViewIds>{E179CACC-3C83-4F4C-A3B7-E2080C5D0486}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>ur_SafeWaysLineStatus_Line_ur_Line</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{845f3860-ba4e-416a-8905-16a19a7d7c67}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Safe Way of Working" languagecode="1033" />
+                        </labels>
+                        <control id="line_subgrid_safe_way_working" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>ur_safewaysofworking</TargetEntityType>
+                            <ViewId>{1297B016-96D8-4B88-B3F7-4B3BD473EC81}</ViewId>
+                            <ViewIds>{1297B016-96D8-4B88-B3F7-4B3BD473EC81}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>ur_SafeWaysofWorking_Line_ur_Line</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title Text="Common" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title Text="Sales" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title Text="Service" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title Text="Marketing" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title Text="Process Sessions" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <header id="{5e445acd-e9d6-4674-ae34-fed406c329a6}" columns="111" celllabelalignment="Left" celllabelposition="Top" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{05073101-525a-472b-ad74-d51505774835}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{37d8740e-517e-445d-9491-0162237401e7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{86edba59-0e80-4d57-90a8-b3cab2c25924}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{2e96cd98-9aec-4bff-99f4-48e94057433e}" columns="111" celllabelalignment="Left" celllabelposition="Top" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{7e1f796c-9018-4572-82e9-4dd11970766a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6a332c35-6287-4ecb-b5ec-8922be493ee1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4b67f977-2210-4d49-83ad-0cf19a4eac34}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

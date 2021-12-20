@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{627f9211-f36f-4976-ab86-83a42dadae9d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_guidename" select="1" icon="1" preview="1">
+        <row id="ur_guideid" name="result">
+          <cell name="ur_guidename" width="200" />
+          <cell name="ur_guidedescription" width="300" />
+          <cell name="ownerid" width="100" />
+          <cell name="statecode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_guide">
+          <attribute name="ur_guideid" />
+          <attribute name="ur_guidename" />
+          <order attribute="ur_guidename" descending="false" />
+          <filter type="and">
+            <condition value="0" operator="eq" attribute="statecode" />
+          </filter>
+          <attribute name="ur_guidedescription" />
+          <attribute name="ownerid" />
+          <attribute name="statecode" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Guides" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

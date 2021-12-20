@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{34995fd0-fe49-4dcf-9572-49c3e93d1f73}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab id="{c0b7b8da-f255-4bb2-a6c2-4e5a1bb799d5}" verticallayout="true" IsUserDefined="1" name="cil_process_tab_general">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{5bbfe66e-8f0a-47b9-9f88-84650c46360c}" IsUserDefined="0" showlabel="false" showbar="false" name="cil_process_section_general">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{60d6c969-2e97-4c2c-8837-faeb9437ec09}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ur_primaryname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ur_primaryname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2577e68d-5a01-9440-5b46-589213d4e7e4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="ur_machinecenter" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ur_machinecenter" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aeb32604-9a90-21c1-23db-70d99db36c52}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="ur_sequence" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="ur_sequence" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4630c230-9449-4a78-daaa-cdeac6e3c323}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="ur_linemustbestopped" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ur_linemustbestopped" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2d3ab973-e2b5-8d29-694b-aa157457e918}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="ur_duration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="ur_duration" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fd0f1f7f-be58-4ffd-b3cd-bd0d9ec12ff2}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{2ab4cbdf-ec6b-4583-8bac-3e893e8d5fb0}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cil_process_subgrid_cil_points" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>ur_cilpoint</TargetEntityType>
+                            <ViewId>{A0EB866C-597B-44B3-9534-5DEE63E6157A}</ViewId>
+                            <ViewIds>{A0EB866C-597B-44B3-9534-5DEE63E6157A}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>ur_CILPoint_CIL_ur_CILProcess</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{17128a85-10b2-4c1d-9c44-e81e61bfb38e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{246fad6f-c2e8-496f-bad2-7d246d5738b0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="cil_process_tab_cil_records" id="d8937ea8-111c-4e66-a0a4-59d2a5a62fbe" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="CIL Records" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="cil_process_section_cil_records" id="9f12d7bb-b17f-4a65-8cc0-61873a251dca" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="CIL Records" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{334c9421-29cd-4e62-aa82-347c08ae0953}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="CIL Records" languagecode="1033" />
+                        </labels>
+                        <control id="cil_process_subgrid_cil_records" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>ur_cilrecord</TargetEntityType>
+                            <ViewId>{B4E7D475-0922-4319-B670-A2B5B382A0E2}</ViewId>
+                            <ViewIds>{B4E7D475-0922-4319-B670-A2B5B382A0E2}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>ur_CILRecord_CILProcess_ur_CILProce</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title Text="Common" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title Text="Sales" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title Text="Service" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title Text="Marketing" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title Text="Process Sessions" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <header id="{8bdc2958-c169-4844-8b6c-5ec0eba51473}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{6da65c96-38b9-4448-b560-773fcb4701a4}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c34b27d9-7eeb-48af-bfa7-19a852df1dfc}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9a88d3b6-b450-4508-8a65-18aa3308930e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{069c0339-f684-420c-8e87-ee7de881a75c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{0ad1abe4-b9cf-4635-a595-a685c9ae4ec6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{170fe980-fdbc-40d3-bb54-5cd27eb01b00}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0f793dc5-c7b1-4045-b36f-85f737c4ecff}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

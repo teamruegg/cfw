@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ea8e74d4-77f6-4ecc-942e-12179ebb2391}</savedqueryid>
+    <layoutxml>
+      <grid name="" preview="1" icon="1" select="1" jump="ur_name">
+        <row id="ur_opentagid" name="ur_opentag">
+          <cell name="ur_autonum" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ur_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ur_tagtype" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ur_priority" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ur_action" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ur_line" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ur_step" width="100" />
+          <cell name="ur_closedon" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch mapping="logical" version="1.0">
+        <entity name="ur_opentag">
+          <attribute name="ur_name" />
+          <order descending="false" attribute="ur_name" />
+          <filter type="and">
+            <condition value="0" attribute="statecode" operator="eq" />
+          </filter>
+          <attribute name="ur_tagtype" />
+          <attribute name="ur_step" />
+          <attribute name="statuscode" />
+          <attribute name="statecode" />
+          <attribute name="ur_priority" />
+          <attribute name="ownerid" />
+          <attribute name="ur_line" />
+          <attribute name="ur_closedon" />
+          <attribute name="ur_autonum" />
+          <attribute name="ur_action" />
+          <attribute name="ur_opentagid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Open Tag Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

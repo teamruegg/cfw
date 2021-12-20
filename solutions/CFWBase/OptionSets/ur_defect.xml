@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="ur_defect" localizedName="Defect" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Defect" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="575770000">
+      <labels>
+        <label description="SHE" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="575770001">
+      <labels>
+        <label description="Quality" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="575770002">
+      <labels>
+        <label description="5s" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="575770003">
+      <labels>
+        <label description="Basic Condition" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="575770004">
+      <labels>
+        <label description="Small Failure" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="575770005">
+      <labels>
+        <label description="Source of Contamination" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="575770006">
+      <labels>
+        <label description="Hard to Reach Place" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

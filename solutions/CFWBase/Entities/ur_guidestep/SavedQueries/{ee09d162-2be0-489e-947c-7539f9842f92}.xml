@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ee09d162-2be0-489e-947c-7539f9842f92}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_guidestep" select="1" icon="1" preview="1">
+        <row id="ur_guidestepid" name="result">
+          <cell name="ur_stepno" width="100" />
+          <cell name="ur_guidestep" width="200" />
+          <cell name="ur_stepdescription" width="300" />
+          <cell name="ur_guidetask" width="150" />
+          <cell name="ownerid" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_guidestep">
+          <attribute name="ur_guidestepid" />
+          <attribute name="ur_guidestep" />
+          <filter type="and">
+            <condition value="0" operator="eq" attribute="statecode" />
+          </filter>
+          <attribute name="ur_guidetask" />
+          <attribute name="ownerid" />
+          <attribute name="statecode" />
+          <attribute name="statuscode" />
+          <attribute name="ur_stepno" />
+          <attribute name="ur_stepdescription" />
+          <order attribute="ur_stepno" descending="false" />
+          <order attribute="ur_guidetask" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Guide Steps" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

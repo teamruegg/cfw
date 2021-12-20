@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{afda5ec0-1693-4f12-935d-69659a23d5e0}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="ur_primaryname" select="1" icon="1" preview="0">
+        <row name="ur_machinecenter" id="ur_machinecenterid">
+          <cell name="ur_primaryname" width="300" />
+          <cell name="ur_line" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ur_machinecenter">
+          <attribute name="ur_machinecenterid" />
+          <attribute name="ur_primaryname" />
+          <attribute name="ur_line" />
+          <order attribute="ur_primaryname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Machine Center Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9819f6c5-89b6-4d27-9281-7ab210c7cbac}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab id="{4a12dd3d-d10f-4b0f-9c01-4ed695f14a64}" verticallayout="true" IsUserDefined="1" name="guide_task_general">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="40%">
+              <sections>
+                <section id="{63901d4d-e343-4402-ad83-663e49086341}" IsUserDefined="0" showlabel="false" showbar="false">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a304e134-f117-47d5-a3e6-44841dad3b7a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="ur_guide" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ur_guide" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{68fd6cdc-e27a-44e6-a8e1-7dd55ab4dd16}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ur_guidetask" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ur_guidetask" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{51585e56-0079-4b6e-bb2c-326c4adf3a7b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="ur_taskno" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ur_taskno" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{717705d0-1462-48c8-ad95-201479757ab3}" showlabel="true" locklevel="0" rowspan="8">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="ur_taskdescription" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="ur_taskdescription" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{540aae3e-8b3a-4540-800f-f26d2ba83952}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ee2e88e0-da35-4779-89e8-66371114fc12}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a05bf19b-e8dc-4e3c-b322-affc3d476965}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="60%">
+              <sections>
+                <section name="_section_656" id="07f9616a-756e-48f7-9764-4b0a27c12db2" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{6862de23-299e-42ca-b285-7aa29300ab24}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Guide steps" languagecode="1033" />
+                        </labels>
+                        <control id="sub_table_guide_steps" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>ur_guidestep</TargetEntityType>
+                            <ViewId>{EE09D162-2BE0-489E-947C-7539F9842F92}</ViewId>
+                            <ViewIds>{EE09D162-2BE0-489E-947C-7539F9842F92}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>ur_guidestep_ur_guidetask</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{95fee87b-89d4-4756-b156-0d5264c00f84}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{397e2e9b-2852-4fa2-b3e6-c5884351c793}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{13b3199f-c15a-4e84-97f1-c0ba51aa84f6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b8726a2c-ccad-43bc-be3f-151d0f1df911}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{44d04c22-e985-4878-ba47-227948088bbd}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{1e9c97e3-ad3c-4bc3-8a39-ae93a40d43e2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c5e54221-6dcc-430d-93b1-4a116a0ecc81}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0be33ab9-5da7-4dd6-b13a-208d5a5d287f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Entry form for guide tasks" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
