@@ -27,7 +27,6 @@ The Connected Factory Worker applications using the new PowerApps component feat
 
 
 # Application
--------------
 
 ##Prerequisites
 The Connected Factory Worker app is build on top of the Power Platform. And therefor the following licences needs to be assigned and configured within the targed environement.
@@ -35,9 +34,7 @@ The Connected Factory Worker app is build on top of the Power Platform. And ther
 * Power Automate
 * Power Bi
 
-
 # Development
--------------
 
 ## Prerequisite
 * Visual Studio
