@@ -16,14 +16,14 @@ and docs
 
 The Connected Factory Worker application is a set of application used by the factory operator addressing specific use cases to simplify their daily job to check, track and review standard operation using mobile device. 
  
-![Image of Connected Factory Worker apps](../cfw/images/Connected_Factory_Worker_application_overview.png)
+![Image of Connected Factory Worker apps](./cfw/images/Connected_Factory_Worker_application_overview.png)
  
 The Connected Factory Worker Standard Components is a set of Power Apps Canvas components shared to the factor operators who can build now their specific standard operation app based on common UI pattern and Common Data Model exposed by the Common Data Services.
 
 ## CFW Home Screen
 The Home Screen shares common UI pattern like application context (factory, service line center, line, machine center, user and date), operation navigation steps and system info (line and machine center). 
 
-![Image of CFW Components Home Screen](/images/cfw_components_home_screen.png)
+![Image of CFW Components Home Screen](../images/cfw_components_home_screen.png)
 
 ## CFW Map Tag to Line Layout image
 To simplify factory operator’s navigation to find relevant tags (reported issues or non-adherence) within the factory, we introduced the concept of show factory layout image and map tags to the layout.
@@ -31,7 +31,7 @@ Two components are supporting the pattern to capture a position for a specify ne
 
 View a list of tags linked using their relative position:
 
-![Image of CFW Map Tag to Line Layout view](/images/cfw_components_map_position_view_screen.png)
+![Image of CFW Map Tag to Line Layout view](../images/cfw_components_map_position_view_screen.png)
 
 Capture a position for a specify new tag linked to layout relative position:
  
