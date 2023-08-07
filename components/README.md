@@ -16,7 +16,7 @@ and docs
 
 The Connected Factory Worker application is a set of application used by the factory operator addressing specific use cases to simplify their daily job to check, track and review standard operation using mobile device. 
  
-![Image of Connected Factory Worker apps](../images/Connected_Factory_Worker_application_overview.png)
+![Image of Connected Factory Worker apps](../../images/Connected_Factory_Worker_application_overview.png)
  
 The Connected Factory Worker Standard Components is a set of Power Apps Canvas components shared to the factor operators who can build now their specific standard operation app based on common UI pattern and Common Data Model exposed by the Common Data Services.
 
