@@ -23,7 +23,7 @@ The Connected Factory Worker Standard Components is a set of Power Apps Canvas c
 ## CFW Home Screen
 The Home Screen shares common UI pattern like application context (factory, service line center, line, machine center, user and date), operation navigation steps and system info (line and machine center). 
 
-![Image of CFW Components Home Screen](./images/cfw_components_home_screen.PNG)
+![Image of CFW Components Home Screen](../images/cfw_components_home_screen.PNG)
 
 ## CFW Map Tag to Line Layout image
 To simplify factory operator’s navigation to find relevant tags (reported issues or non-adherence) within the factory, we introduced the concept of show factory layout image and map tags to the layout.
@@ -31,16 +31,16 @@ Two components are supporting the pattern to capture a position for a specify ne
 
 View a list of tags linked using their relative position:
 
-![Image of CFW Map Tag to Line Layout view](./images/cfw_components_map_position_view_screen.PNG)
+![Image of CFW Map Tag to Line Layout view](../images/cfw_components_map_position_view_screen.PNG)
 
 Capture a position for a specify new tag linked to layout relative position:
  
-![Image of CFW Map Tag to Line Layout map](./images/cfw_components_map_position_set_screen.PNG)
+![Image of CFW Map Tag to Line Layout map](../images/cfw_components_map_position_set_screen.PNG)
 
 ## CFW Header Control
 Static control shows operators their factory context based on selected factory, service line center, line and machine center including visuals for line and machine center.
 
-![Image of CFW Header Control](./images/cfw_components_header_control.PNG)
+![Image of CFW Header Control](../images/cfw_components_header_control.PNG)
 
 [Download package](https://teamrueggstorage.blob.core.windows.net/devops/CFWHeaderControl.zip)
 
@@ -63,7 +63,7 @@ UserAccount | Logged in user account name / email (ex. User().Email)
 ## CFW Nav Step Control
 Simplified menu control reduced to show process step (screens) within the application context.
 
-![Image of CFW Nav Step Control](./images/cfw_components_nav_step_control.PNG)
+![Image of CFW Nav Step Control](../images/cfw_components_nav_step_control.PNG)
 
 [Download package](https://teamrueggstorage.blob.core.windows.net/devops/CFWNavStepControl.zip)
 
@@ -75,7 +75,7 @@ AppName | Application name
 
 ## CFW Sys Info Control
 
-![Image of CFW Sys Info Control](./images/cfw_components_sysinfo_control.PNG)
+![Image of CFW Sys Info Control](../images/cfw_components_sysinfo_control.PNG)
 
 Property | Description
 ------------ | ------------- 
@@ -84,7 +84,7 @@ AppName | Application name
 
 ## CFW Map Position Set Control
 
-![Image of CFW Map Position Set Control](./images/cfw_components_map_position_set_control.PNG)
+![Image of CFW Map Position Set Control](../images/cfw_components_map_position_set_control.PNG)
 
 Property | Description
 ------------ | ------------- 
@@ -94,7 +94,7 @@ SetY | Starting Y coordinate (can be empty for new tag)
 
 ## CFW Map Position View Control
 
-![Image of CFW Map Position View Control](./images/cfw_components_map_position_view_control.PNG)
+![Image of CFW Map Position View Control](../images/cfw_components_map_position_view_control.PNG)
 
 Property | Description
 ------------ | ------------- 
@@ -105,7 +105,7 @@ AppName | Application name
 
 ## CFW Daily Tear Off Control
 
-![Image of CFW Daily Tear Off Control](./images/cfw_components_daily_tear_off_control.PNG)
+![Image of CFW Daily Tear Off Control](../images/cfw_components_daily_tear_off_control.PNG)
 
 Property | Description
 ------------ | ------------- 
